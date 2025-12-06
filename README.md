@@ -21,17 +21,18 @@ A command-line application. This tool allows users to generate common electrical
 
     Dependencies
 
-*** Overview ***  
+*** Overview *** 
 This project splits functionality into two distinct modules handled by a central menu system:  
-
-Signal Generation: Creates synthetic waveform data based on user inputs and visualizes it using gnuplot.  
-
-Signal Analysis: Reads raw waveform data from text files and calculates physical properties like amplitude, frequency, and DC offset.  
+    
+    Signal Generation: Creates synthetic waveform data based on user inputs and visualizes it using gnuplot.  
+    
+    Signal Analysis: Reads raw waveform data from text files and calculates physical properties like amplitude, frequency, and DC offset.  
 
 *** Features ***  
 Signal Generator:  
-    ```Supports the generation of the following waveform types:  ```
 
+    Supports the generation of the following waveform types: 
+    
         Sine Wave
 
         Square Wave
@@ -82,6 +83,7 @@ Signal Analyser:
           ```gcc main.c funcs1.c funcs2.c -o main.out -lm```  
      For Windows, run:  
           ```gcc main.c funcs1.c funcs2.c -o main.exe -lm```  
+            
   Running the Application:  
      For Linux / macOS, run:  
           ```./main.out```  
