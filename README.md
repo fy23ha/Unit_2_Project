@@ -21,7 +21,7 @@ A command-line application. This tool allows users to generate common electrical
 
     Dependencies
 
-*** Overview ***
+*** Overview ***\n
 This project splits functionality into two distinct modules handled by a central menu system:
 
 Signal Generation: Creates synthetic waveform data based on user inputs and visualizes it using gnuplot.
