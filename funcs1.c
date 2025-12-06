@@ -159,12 +159,15 @@ void save_waveform(Waveform* w) {
 // ------------- VISUALIZATION -------------
 
 void visualize_waveform(Waveform* w) {
-    FILE *gp = popen("gnuplot -persistent 2> NUL", "w");          //'persistent' makes sure that gnuplot window remains open even after code finishes. '2> null' to hide slow font initialization warnings
+    FILE *gp = popen("gnuplot", "w");           
     if (!gp) {
         printf("Failed to open gnuplot.\n");
         return;
     }
-    printf("Waveform plotted in GNUPLOT Window.\n");
+    printf("Waveform plot saved as plt.png\n");
+    // Output to a PNG file
+    fprintf(gp, "set terminal pngcairo size 800,600\n");
+    fprintf(gp, "set output 'plot.png'\n");
     // --- Gnuplot settings ---
     fprintf(gp, "set title 'Waveform Plot'\n");
     fprintf(gp, "set xlabel 'Time (s)'\n");
