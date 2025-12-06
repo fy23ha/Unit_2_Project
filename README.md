@@ -30,7 +30,7 @@ Signal Analysis: Reads raw waveform data from text files and calculates physical
 
 *** Features ***  
 Signal Generator:  
-    Supports the generation of the following waveform types:  
+    ```Supports the generation of the following waveform types:  ```
 
         Sine Wave
 
@@ -79,11 +79,11 @@ Prerequisites:
 Compiling the Code:  
     Open terminal or command prompt in the project directory and run the following command:  
     For Linux / macOS, run:  
-        '''gcc main.c funcs1.c funcs2.c -o main.out -lm''' 
+        ```gcc main.c funcs1.c funcs2.c -o main.out -lm```
     For Windows, run:  
-        '''gcc main.c funcs1.c funcs2.c -o main.exe -lm'''
+        ```gcc main.c funcs1.c funcs2.c -o main.exe -lm```
 Running the Application:
     For Linux / macOS, run:
-       '''./main.out'''
+       ```./main.out```
     For Windows, run:
-        '''./main.exe'''
+        ```./main.exe```
