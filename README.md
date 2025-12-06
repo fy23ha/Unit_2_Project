@@ -5,21 +5,21 @@ A command-line application. This tool allows users to generate common electrical
 
 *** Table of Contents ***
 
----Overview
+    Overview
 
----Features
+    Features
 
----File Structure
+    File Structure
 
----Installation & Compilation
+    Installation & Compilation
 
----Usage Guide
+    Usage Guide
 
----Signal Generator
+    Signal Generator
 
----Signal Analyser
+    Signal Analyser
 
----Dependencies
+    Dependencies
 
 *** Overview ***
 This project splits functionality into two distinct modules handled by a central menu system:
