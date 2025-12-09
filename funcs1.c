@@ -164,7 +164,7 @@ void visualize_waveform(Waveform* w) {
         printf("Failed to open gnuplot.\n");
         return;
     }
-    printf("Waveform plot saved as plt.png\n");
+    printf("Waveform plot saved as plot.png\n");
     // Output to a PNG file
     fprintf(gp, "set terminal pngcairo size 800,600\n");
     fprintf(gp, "set output 'plot.png'\n");
